@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pay — The Water Boys</title>
-<meta name="description" content="Pay The Water Boys for pressure washing. Card payments via secure checkout.">
+<title>Pay Your Quote — The Water Boys</title>
+<meta name="description" content="Pay The Water Boys for your pressure washing quote. Secure card payment via Stripe.">
 <style>
   :root{--bg:#0b1020;--card:#121a33;--ink:#eef2ff;--muted:#9aa7c7;--gold:#ffd23d;--line:rgba(255,255,255,.08)}
   *{margin:0;padding:0;box-sizing:border-box}
@@ -12,42 +12,33 @@
   .box{max-width:520px;width:100%;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:34px;text-align:center}
   h1{font-size:1.6rem;margin-bottom:6px}
   .sub{color:var(--muted);margin-bottom:26px}
-  .pay{border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:14px;text-align:left}
-  .pay h3{font-size:1.05rem;margin-bottom:4px}
-  .pay .amt{color:var(--gold);font-weight:800;font-size:1.3rem}
-  .pay .note{color:var(--muted);font-size:.85rem;margin:6px 0 12px}
+  .pay{border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:18px;text-align:left;background:rgba(255,255,255,.02)}
+  .pay h3{font-size:1.1rem;margin-bottom:8px;color:var(--gold)}
+  .pay p{color:var(--muted);font-size:0.95rem;margin-bottom:16px;line-height:1.5}
   .pay a{display:block;background:linear-gradient(135deg,#ffd23d,#f0a500);color:#14131a;text-align:center;font-weight:700;
-    padding:12px;border-radius:10px;text-decoration:none}
-  footer{margin-top:20px;color:var(--muted);font-size:.8rem}
+    padding:14px;border-radius:10px;text-decoration:none;font-size:1.05rem}
+  .pay a:hover{opacity:0.95}
+  footer{margin-top:24px;color:var(--muted);font-size:0.85rem}
 </style>
 </head>
 <body>
 <div class="box">
-  <h1>💧 The Water Boys — Pay</h1>
-  <p class="sub">Secure card payment · your quote number is all we need</p>
+  <h1>💧 The Water Boys — Secure Checkout</h1>
+  <p class="sub">Mamaroneck &amp; Westchester Pressure Washing</p>
 
   <div class="pay">
-    <h3>Driveway</h3>
-    <div class="amt">$150</div>
-    <p class="note">Typical driveway clean. Final price confirmed on your free quote.</p>
-    <a href="https://buy.stripe.com/PASTE_WATER_BOYS_DRIVEWAY_LINK" target="_blank">Pay with card</a>
+    <h3>Custom Quote Payment</h3>
+    <p>Got your quote over text, call, or email? Click below to complete your payment for your exact quoted amount securely via Stripe.</p>
+    <a href="https://buy.stripe.com/PASTE_YOUR_CUSTOM_STRIPE_LINK_HERE" target="_blank">Pay Your Quoted Amount</a>
   </div>
 
-  <div class="pay">
-    <h3>Patio / Walkway</h3>
-    <div class="amt">$130</div>
-    <p class="note">Typical patio or walkway clean. Final price confirmed on your free quote.</p>
-    <a href="https://buy.stripe.com/PASTE_WATER_BOYS_PATIO_LINK" target="_blank">Pay with card</a>
+  <div class="pay" style="border-style:dashed;">
+    <h3>Need an Invoice or Link?</h3>
+    <p>If you don't have your payment link yet or need us to text it over, reach out directly and we'll send it right over.</p>
+    <a href="tel:5135811419" style="background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff;">Call / Text 513-581-1419</a>
   </div>
 
-  <div class="pay">
-    <h3>Bundle / Custom</h3>
-    <div class="amt">Your quote</div>
-    <p class="note">Driveway + patio + walkway, or anything custom — pay the amount from your quote.</p>
-    <a href="https://buy.stripe.com/PASTE_WATER_BOYS_CUSTOM_LINK" target="_blank">Pay with card</a>
-  </div>
-
-  <footer>Questions? Call or text 513-581-1419 · Free quotes every day</footer>
+  <footer>The Water Boys · Honest work, satisfaction guaranteed</footer>
 </div>
 </body>
 </html>
